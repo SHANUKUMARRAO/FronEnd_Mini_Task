@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 257px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  display: block;
+  font: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5em;
+  padding: auto;
+}
+
+.negative{
+  border: 0.5px rgb(136, 58, 58) solid;
+  height: 58px;
+  width: 60px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: x-large;
+  color: rgb(199, 54, 54);
+  cursor: pointer;
+}
+
+.positive{
+  cursor: pointer;
+  border: 0.5px rgb(136, 58, 58) solid;
+  height: 58px;
+  width: 60px;
+  background-color: rgba(172, 70, 70, 0.904);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-size: x-large;
+}
+
+input{
+  background-color: rgb(247, 226, 226);
+  color: rgb(172, 70, 70, 0.904);
+  border: 0.5px rgb(136, 58, 58) solid;
+  border-left: none;
+  border-right: none;
+  height: 54px;
+  width: 55px;
+  text-align: center;
+}
+
+.inpu{
+  font-weight: 900;
+}
